@@ -25,10 +25,10 @@ class AppTest {
                     stacks[2].add('P')
                 },
                 listOf(
-                    Move(1, 2, 1),
-                    Move(3, 1, 3),
-                    Move(2, 2, 1),
-                    Move(1, 1, 2)
+                    Move(1, 1, 0),
+                    Move(3, 0, 2),
+                    Move(2, 1, 0),
+                    Move(1, 0, 1)
                 )
             ),
             parseInput(input)
